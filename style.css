@@ -1,0 +1,195 @@
+body {
+	margin: 0;
+}
+
+.wrapper {
+	background: url(img/TABSBG2.png);
+	/* height:100vh; */
+	background-attachment:fixed;
+	background-size:cover;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.menu {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	font-family: Verdana;
+}
+
+.menu a {
+	display: block;
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	padding:20px 30px;
+}
+
+ .menu a:hover {
+	 color: violet;
+ }
+
+.menu a.active {
+	color: lime;
+}
+
+.logo {
+	width: 100px;
+}
+
+.main{
+	width: 1000px;
+	margin: 0 auto;
+	padding-top: 20px;
+	color:white;
+	background-color:#0A0A2A;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:10px;
+}
+
+.fraction a {
+	color:lime;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* g */
+
+
+.title{
+	color:white;
+	font-size:40px;
+	font-family: Verdana;
+}
+
+.subtitle{
+	color:lime;
+}
+
+.main-img {
+	float: right;
+}
+
+.button {
+	width: 140;
+	height: 60px;
+	font-family: Verdana;
+	font-size:18px;
+	border-radius: 6px;
+	background-color: white;
+	border: 4px double #6a0aab;
+}
+
+.button a{
+	text-decoration:none;
+	color: lime;
+}
+
+.button:hover{
+	border: 4px double white;
+	background-color: transparent;
+}
+
+.contact {
+	width: 800px;
+	margin: 0 auto;
+	padding-top: 40px;
+}
+
+.info {
+	height: 120px;
+	color:white;
+}
+
+.map {
+	width: 200px;
+	height: 120px;
+	float: left;
+	border: 3px solid violet;
+	margin-right: 100px;
+}
+
+/* Товари */
+.tovars {
+	background-color: white;
+	text-align: center;
+}
+
+.tovars ul{
+	list-style: none;
+	padding: 0;
+}
+
+.tovars-title{
+	margin-top:0;
+}
+
+.tovars h3{
+	color:gray;
+}
+
+.price{
+	color: gold;
+	font-weight: bold;
+}
+
+/* Про нас */
+.about{
+	
+	background-color: white;
+	height: 100%;
+}
+
+.aboutt{
+	text-align: right;
+	margin-top: 0;
+	margin-right:500px;
+	padding-top: 100px;
+}
+
+.about img{
+	float: left;
+	margin-bottom: 70px;
+}
+

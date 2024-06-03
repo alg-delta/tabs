@@ -1,0 +1,60 @@
+body {
+	margin: 0;
+}
+
+.wrapper {
+	background: url(img/tabg3.png);
+	/* height:100vh; */
+	background-attachment:fixed;
+	background-size:cover;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.menu {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	font-family: Verdana;
+}
+
+.menu a {
+	display: block;
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	padding:20px 30px;
+}
+
+ .menu a:hover {
+	 color: violet;
+ }
+
+.menu a.active {
+	color: lime;
+}
+
+.logo {
+	width: 100px;
+}
+
+.main{
+	width: 1000px;
+	margin: 0 auto;
+	padding-top: 20px;
+	color:white;
+	background-color:#0A0A2A;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:10px;
+}
+
+.fraction a {
+	color:lime;
+}
